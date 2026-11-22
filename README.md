@@ -24,8 +24,15 @@ En son sürüm: sağdaki **Releases** bağlantısı → en üstteki sürüm → 
 1. Apple işlemcili (M1 ve sonrası) Mac için `…-arm64.dmg`, Intel için
    `…-x64.dmg` dosyasını indir.
 2. Açılan pencerede İktibas'ı **Uygulamalar** klasörüne sürükle.
-3. İlk açılışta "geliştiricisi doğrulanamadı" derse: Uygulamalar'da İktibas'a
-   sağ tıkla → **Aç** → **Aç**.
+3. Program imzasız olduğu için macOS ilk açılışta (güncellemeden sonra da)
+   engelleyebilir. Dosyayı bu sayfadan ya da programın "İndir" düğmesiyle
+   indirdiysen:
+   - **macOS 15 (Sequoia) ve sonrası:** İktibas'ı bir kez açmayı dene, uyarıyı
+     kapat. **Sistem Ayarları** → **Gizlilik ve Güvenlik** → aşağıda
+     **Yine de Aç**'a bas, çıkan soruyu onayla. (Düğme, açmayı denedikten sonra
+     yaklaşık bir saat görünür.)
+   - **macOS 14 ve öncesi:** Uygulamalar'da İktibas'a sağ tıkla → **Aç** →
+     **Aç**.
 4. Yeni sürüm çıktığında program haber verir; "İndir" deyince yeni `.dmg`
    açılır, aynı sürükleme yeniden yapılır.
 
